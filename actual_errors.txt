@@ -1,0 +1,143 @@
+error - Expected to find ';' - lib_recovered_temp\main.dart:101:1 - expected_token
+error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp\main.dart:101:1 - missing_const_final_var_or_type
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\bus_model.dart:61:1 - expected_executable
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\complaint_model.dart:50:1 - expected_executable
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\route_model.dart:39:1 - expected_executable
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\route_model.dart:39:2 - expected_executable
+error - Expected to find ')' - lib_recovered_temp\models\route_model.dart:39:2 - expected_token
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\stop_model.dart:43:1 - expected_executable
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\user_model.dart:48:1 - expected_executable
+error - Expected to find ';' - lib_recovered_temp\services\location_service.dart:70:1 - expected_token
+error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp\services\location_service.dart:70:1 - missing_const_final_var_or_type
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\services\notification_service.dart:33:1 - expected_executable
+error - Unterminated string literal - lib_recovered_temp\services\notification_service.dart:33:1 - unterminated_string_literal
+error - Expected to find ';' - lib_recovered_temp\services\prediction_service.dart:83:1 - expected_token
+error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp\services\prediction_service.dart:83:1 - missing_const_final_var_or_type
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\services\simulation_service.dart:40:1 - expected_executable
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\ui\screens\admin\admin_announcements_screen.dart:125:1 - expected_executable
+error - Expected to find ';' - lib_recovered_temp\ui\screens\admin\admin_manage_routes_screen.dart:119:39 - expected_token
+error - Unterminated string literal - lib_recovered_temp\ui\screens\admin\admin_manage_routes_screen.dart:119:39 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp\ui\screens\admin\admin_manage_routes_screen.dart:119:40 - expected_token
+error - Expected to find '}' - lib_recovered_temp\ui\screens\admin\admin_manage_routes_screen.dart:119:40 - expected_token
+error - Expected to find ';' - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:151:57 - expected_token
+error - Unterminated string literal - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:151:57 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+error - Expected to find ']' - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+error - Expected to find '}' - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:23:26 - undefined_method
+error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:31:26 - undefined_method
+error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:43:26 - undefined_method
+error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:47:26 - undefined_method
+error - The method '_buildLogTile' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:63:19 - undefined_method
+error - Expected to find ';' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:64:21 - expected_token
+error - Unterminated string literal - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:64:28 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+error - Expected to find ']' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+error - Expected to find '}' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:54:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:55:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:59:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:60:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:64:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:65:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:69:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:70:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:74:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:75:15 - undefined_method
+error - Expected to find ';' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:81:19 - expected_token
+error - Unterminated string literal - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:81:19 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+error - Expected to find ']' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+error - Expected to find '}' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:54:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:55:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:59:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:60:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:64:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:65:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:69:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:70:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:74:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:75:15 - undefined_method
+error - Expected to find ';' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:81:19 - expected_token
+error - Unterminated string literal - lib_recovered_temp\ui\screens\legal\terms_screen.dart:81:19 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+error - Expected to find ']' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+error - Expected to find '}' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\ui\widgets\glass_container.dart:43:1 - expected_executable
+error - Expected to find ';' - lib_recovered_temp_v2\main.dart:101:1 - expected_token
+error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp_v2\main.dart:101:1 - missing_const_final_var_or_type
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\bus_model.dart:61:1 - expected_executable
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\complaint_model.dart:50:1 - expected_executable
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\route_model.dart:39:1 - expected_executable
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\route_model.dart:39:2 - expected_executable
+error - Expected to find ')' - lib_recovered_temp_v2\models\route_model.dart:39:2 - expected_token
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\stop_model.dart:43:1 - expected_executable
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\user_model.dart:48:1 - expected_executable
+error - Expected to find ';' - lib_recovered_temp_v2\services\location_service.dart:70:1 - expected_token
+error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp_v2\services\location_service.dart:70:1 - missing_const_final_var_or_type
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\services\notification_service.dart:33:1 - expected_executable
+error - Unterminated string literal - lib_recovered_temp_v2\services\notification_service.dart:33:1 - unterminated_string_literal
+error - Expected to find ';' - lib_recovered_temp_v2\services\prediction_service.dart:83:1 - expected_token
+error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp_v2\services\prediction_service.dart:83:1 - missing_const_final_var_or_type
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\services\simulation_service.dart:40:1 - expected_executable
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\ui\screens\admin\admin_announcements_screen.dart:125:1 - expected_executable
+error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:104:81 - expected_token
+error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:104:81 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:104:82 - expected_token
+error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:104:82 - expected_token
+error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_routes_screen.dart:119:39 - expected_token
+error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\admin\admin_manage_routes_screen.dart:119:39 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_routes_screen.dart:119:40 - expected_token
+error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_routes_screen.dart:119:40 - expected_token
+error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:151:57 - expected_token
+error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:151:57 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+error - Expected to find ']' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+error - Missing concrete implementation of 'abstract class State<T extends StatefulWidget> with Diagnosticable.build' - lib_recovered_temp_v2\ui\screens\admin\admin_map_screen.dart:12:7 - non_abstract_class_inherits_abstract_member
+error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\admin\admin_map_screen.dart:37:66 - expected_token
+error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\admin\admin_map_screen.dart:37:71 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\admin\admin_map_screen.dart:37:72 - expected_token
+error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\admin\admin_map_screen.dart:37:72 - expected_token
+error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:23:26 - undefined_method
+error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:31:26 - undefined_method
+error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:43:26 - undefined_method
+error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:47:26 - undefined_method
+error - The method '_buildLogTile' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:63:19 - undefined_method
+error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:64:21 - expected_token
+error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:64:28 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+error - Expected to find ']' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:54:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:55:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:59:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:60:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:64:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:65:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:69:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:70:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:74:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:75:15 - undefined_method
+error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:81:19 - expected_token
+error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:81:19 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+error - Expected to find ']' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:54:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:55:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:59:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:60:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:64:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:65:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:69:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:70:15 - undefined_method
+error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:74:15 - undefined_method
+error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:75:15 - undefined_method
+error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:81:19 - expected_token
+error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:81:19 - unterminated_string_literal
+error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+error - Expected to find ']' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\ui\widgets\glass_container.dart:43:1 - expected_executable

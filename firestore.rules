@@ -1,0 +1,105 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // ==========================================
+    // HELPER FUNCTIONS (ROLE-BASED ACCESS CONTROL)
+    // ==========================================
+    
+    // Check if user is fully authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Fetch user's role securely from their profile
+    function getUserRole() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+
+    // Role Validators
+    function isAdmin() {
+      return isAuthenticated() && getUserRole() == 'admin';
+    }
+    
+    function isDriver() {
+      return isAuthenticated() && getUserRole() == 'driver';
+    }
+    
+    function isStudent() {
+      return isAuthenticated() && getUserRole() == 'student';
+    }
+
+    // ==========================================
+    // RULES BY COLLECTION
+    // ==========================================
+
+    // 1. USERS COLLECTION
+    match /users/{userId} {
+      // Users can read/write their own profile; Admins control all
+      allow read: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      allow write: if isAdmin(); 
+      // Allow user creation flow bounds
+      allow create: if isAuthenticated() && request.auth.uid == userId; 
+      allow update: if isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // 2. BUSES COLLECTION (Strict Driver Bounds)
+    match /buses/{busId} {
+      // Anyone logged in can track the buses
+      allow read: if isAuthenticated();
+      // Admins have full control
+      allow create, delete: if isAdmin();
+      // Drivers can ONLY update the bus they are specifically assigned to
+      allow update: if isAdmin() || (isDriver() && resource.data.driverId == request.auth.uid);
+    }
+
+    // 3. ROUTES & STOPS (Read-Only to Public)
+    match /routes/{routeId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+    
+    match /stops/{stopId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin();
+    }
+
+    // 4. TRIPS COLLECTION (Driver & Admin Controlled)
+    match /trips/{tripId} {
+      // Students follow the trips via read
+      allow read: if isAuthenticated();
+      // Drivers create and close trips bound to their ID
+      allow create: if isAdmin() || (isDriver() && request.resource.data.driverId == request.auth.uid);
+      allow update: if isAdmin() || (isDriver() && resource.data.driverId == request.auth.uid);
+      allow delete: if isAdmin();
+    }
+
+    // 5. ATTENDANCE SYSTEM
+    match /attendance/{attendanceId} {
+      // Drivers/Admins can read who is boarding
+      allow read: if isAuthenticated();
+      // Students can ONLY log their own attendance tickets
+      allow create: if isAdmin() || (isStudent() && request.resource.data.studentId == request.auth.uid);
+      allow update, delete: if isAdmin();
+    }
+
+    // 6. SOS ALERTS (Emergency Writes)
+    match /sos_alerts/{alertId} {
+      // Only Admins can view the global SOS feed
+      allow read: if isAdmin();
+      // Students can push an SOS ticket tagged with their ID
+      allow create: if isStudent() && request.resource.data.studentId == request.auth.uid;
+      // Admins resolve the alerts
+      allow update, delete: if isAdmin();
+    }
+
+    // 7. NOTIFICATIONS
+    match /notifications/{notifId} {
+      // Users read their notifications
+      allow read: if isAuthenticated();
+      // Driven through Cloud Functions/Admin Dashboard securely
+      allow write: if isAdmin();
+    }
+  }
+}

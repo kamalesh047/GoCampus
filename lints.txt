@@ -1,0 +1,16 @@
+Analyzing go_campus...                                          
+
+   info - Don't invoke 'print' in production code - extract_dill.dart:7:5 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:19:5 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:28:3 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:53:3 - avoid_print
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\admin\admin_demo_panel.dart:145:57 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\admin\admin_manage_routes_screen.dart:69:44 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\admin\admin_manage_users_screen.dart:135:43 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\admin\admin_manage_users_screen.dart:136:50 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\admin\admin_manage_users_screen.dart:227:50 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\admin\admin_manage_users_screen.dart:230:46 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\driver\driver_home.dart:295:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\student\student_home.dart:93:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\student\student_home.dart:114:31 - use_build_context_synchronously
+

@@ -1,0 +1,315 @@
+Analyzing go_campus...                                          
+
+   info - Don't invoke 'print' in production code - extract_dill.dart:7:5 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:19:5 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:28:3 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:53:3 - avoid_print
+   info - An uninitialized variable should have an explicit type annotation - lib\main.dart:101:1 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\main.dart:101:1 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\main.dart:101:1 - missing_const_final_var_or_type
+  error - Expected a method, getter, setter or operator declaration - lib\models\bus_model.dart:61:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib\models\complaint_model.dart:50:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib\models\route_model.dart:39:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib\models\route_model.dart:39:2 - expected_executable
+  error - Expected to find ')' - lib\models\route_model.dart:39:2 - expected_token
+  error - Expected a method, getter, setter or operator declaration - lib\models\stop_model.dart:43:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib\models\user_model.dart:48:1 - expected_executable
+   info - An uninitialized variable should have an explicit type annotation - lib\services\location_service.dart:70:1 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\services\location_service.dart:70:1 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\services\location_service.dart:70:1 - missing_const_final_var_or_type
+  error - Expected a method, getter, setter or operator declaration - lib\services\notification_service.dart:33:1 - expected_executable
+  error - Unterminated string literal - lib\services\notification_service.dart:33:1 - unterminated_string_literal
+   info - An uninitialized variable should have an explicit type annotation - lib\services\prediction_service.dart:83:1 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib\services\prediction_service.dart:83:1 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib\services\prediction_service.dart:83:1 - missing_const_final_var_or_type
+  error - Expected a method, getter, setter or operator declaration - lib\services\simulation_service.dart:40:1 - expected_executable
+   info - Statements in an if should be enclosed in a block - lib\ui\screens\admin\admin_announcements_screen.dart:96:21 - curly_braces_in_flow_control_structures
+  error - Expected a method, getter, setter or operator declaration - lib\ui\screens\admin\admin_announcements_screen.dart:125:1 - expected_executable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\admin\admin_dashboard.dart:132:32 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\admin\admin_manage_buses_screen.dart:69:46 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib\ui\screens\admin\admin_manage_buses_screen.dart:92:13 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\ui\screens\admin\admin_manage_buses_screen.dart:95:13 - curly_braces_in_flow_control_structures
+  error - Expected to find ';' - lib\ui\screens\admin\admin_manage_buses_screen.dart:104:81 - expected_token
+  error - Unterminated string literal - lib\ui\screens\admin\admin_manage_buses_screen.dart:104:81 - unterminated_string_literal
+  error - Expected to find ')' - lib\ui\screens\admin\admin_manage_buses_screen.dart:104:82 - expected_token
+  error - Expected to find '}' - lib\ui\screens\admin\admin_manage_buses_screen.dart:104:82 - expected_token
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\admin\admin_manage_routes_screen.dart:83:46 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib\ui\screens\admin\admin_manage_routes_screen.dart:110:13 - curly_braces_in_flow_control_structures
+  error - Expected to find ';' - lib\ui\screens\admin\admin_manage_routes_screen.dart:119:39 - expected_token
+  error - Unterminated string literal - lib\ui\screens\admin\admin_manage_routes_screen.dart:119:39 - unterminated_string_literal
+  error - Expected to find ')' - lib\ui\screens\admin\admin_manage_routes_screen.dart:119:40 - expected_token
+  error - Expected to find '}' - lib\ui\screens\admin\admin_manage_routes_screen.dart:119:40 - expected_token
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\ui\screens\admin\admin_manage_users_screen.dart:96:15 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\ui\screens\admin\admin_manage_users_screen.dart:142:21 - curly_braces_in_flow_control_structures
+  error - Expected to find ';' - lib\ui\screens\admin\admin_manage_users_screen.dart:151:57 - expected_token
+  error - Unterminated string literal - lib\ui\screens\admin\admin_manage_users_screen.dart:151:57 - unterminated_string_literal
+  error - Expected to find ')' - lib\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+  error - Expected to find ']' - lib\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+  error - Expected to find '}' - lib\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+  error - Missing concrete implementation of 'abstract class State<T extends StatefulWidget> with Diagnosticable.build' - lib\ui\screens\admin\admin_map_screen.dart:12:7 - non_abstract_class_inherits_abstract_member
+  error - Expected to find ';' - lib\ui\screens\admin\admin_map_screen.dart:37:66 - expected_token
+  error - Unterminated string literal - lib\ui\screens\admin\admin_map_screen.dart:37:71 - unterminated_string_literal
+  error - Expected to find ')' - lib\ui\screens\admin\admin_map_screen.dart:37:72 - expected_token
+  error - Expected to find '}' - lib\ui\screens\admin\admin_map_screen.dart:37:72 - expected_token
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib\ui\screens\admin\admin_reports_screen.dart:23:26 - undefined_method
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib\ui\screens\admin\admin_reports_screen.dart:31:26 - undefined_method
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib\ui\screens\admin\admin_reports_screen.dart:43:26 - undefined_method
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib\ui\screens\admin\admin_reports_screen.dart:47:26 - undefined_method
+  error - The method '_buildLogTile' isn't defined for the type 'AdminReportsScreen' - lib\ui\screens\admin\admin_reports_screen.dart:63:19 - undefined_method
+  error - Expected to find ';' - lib\ui\screens\admin\admin_reports_screen.dart:64:21 - expected_token
+  error - Unterminated string literal - lib\ui\screens\admin\admin_reports_screen.dart:64:28 - unterminated_string_literal
+  error - Expected to find ')' - lib\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+  error - Expected to find ']' - lib\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+  error - Expected to find '}' - lib\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\auth\login_screen.dart:35:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\auth\login_screen.dart:75:45 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\auth\login_screen.dart:102:46 - use_build_context_synchronously
+warning - The value of the local variable 'authService' isn't used - lib\ui\screens\auth\phone_auth_screen.dart:105:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\auth\phone_auth_screen.dart:156:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\driver\driver_home.dart:71:55 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\ui\screens\driver\driver_home.dart:103:48 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\ui\screens\driver\driver_home.dart:109:48 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\driver\driver_home.dart:233:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\legal\privacy_policy_screen.dart:32:37 - deprecated_member_use
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib\ui\screens\legal\privacy_policy_screen.dart:54:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib\ui\screens\legal\privacy_policy_screen.dart:55:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib\ui\screens\legal\privacy_policy_screen.dart:59:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib\ui\screens\legal\privacy_policy_screen.dart:60:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib\ui\screens\legal\privacy_policy_screen.dart:64:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib\ui\screens\legal\privacy_policy_screen.dart:65:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib\ui\screens\legal\privacy_policy_screen.dart:69:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib\ui\screens\legal\privacy_policy_screen.dart:70:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib\ui\screens\legal\privacy_policy_screen.dart:74:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib\ui\screens\legal\privacy_policy_screen.dart:75:15 - undefined_method
+  error - Expected to find ';' - lib\ui\screens\legal\privacy_policy_screen.dart:81:19 - expected_token
+  error - Unterminated string literal - lib\ui\screens\legal\privacy_policy_screen.dart:81:19 - unterminated_string_literal
+  error - Expected to find ')' - lib\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+  error - Expected to find ']' - lib\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+  error - Expected to find '}' - lib\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\legal\terms_screen.dart:32:37 - deprecated_member_use
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib\ui\screens\legal\terms_screen.dart:54:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib\ui\screens\legal\terms_screen.dart:55:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib\ui\screens\legal\terms_screen.dart:59:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib\ui\screens\legal\terms_screen.dart:60:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib\ui\screens\legal\terms_screen.dart:64:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib\ui\screens\legal\terms_screen.dart:65:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib\ui\screens\legal\terms_screen.dart:69:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib\ui\screens\legal\terms_screen.dart:70:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib\ui\screens\legal\terms_screen.dart:74:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib\ui\screens\legal\terms_screen.dart:75:15 - undefined_method
+  error - Expected to find ';' - lib\ui\screens\legal\terms_screen.dart:81:19 - expected_token
+  error - Unterminated string literal - lib\ui\screens\legal\terms_screen.dart:81:19 - unterminated_string_literal
+  error - Expected to find ')' - lib\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+  error - Expected to find ']' - lib\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+  error - Expected to find '}' - lib\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\ui\screens\student\student_complaint_screen.dart:115:17 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\ui\screens\student\student_home.dart:170:23 - curly_braces_in_flow_control_structures
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\student\student_home.dart:204:30 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\student\student_home.dart:253:38 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\student\student_home.dart:440:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\student\student_home.dart:507:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\student\student_home.dart:547:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\student\student_home.dart:632:66 - deprecated_member_use
+  error - Expected a method, getter, setter or operator declaration - lib\ui\widgets\glass_container.dart:43:1 - expected_executable
+   info - An uninitialized variable should have an explicit type annotation - lib_recovered_temp\main.dart:101:1 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib_recovered_temp\main.dart:101:1 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp\main.dart:101:1 - missing_const_final_var_or_type
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\bus_model.dart:61:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\complaint_model.dart:50:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\route_model.dart:39:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\route_model.dart:39:2 - expected_executable
+  error - Expected to find ')' - lib_recovered_temp\models\route_model.dart:39:2 - expected_token
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\stop_model.dart:43:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\models\user_model.dart:48:1 - expected_executable
+   info - An uninitialized variable should have an explicit type annotation - lib_recovered_temp\services\location_service.dart:70:1 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib_recovered_temp\services\location_service.dart:70:1 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp\services\location_service.dart:70:1 - missing_const_final_var_or_type
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\services\notification_service.dart:33:1 - expected_executable
+  error - Unterminated string literal - lib_recovered_temp\services\notification_service.dart:33:1 - unterminated_string_literal
+   info - An uninitialized variable should have an explicit type annotation - lib_recovered_temp\services\prediction_service.dart:83:1 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib_recovered_temp\services\prediction_service.dart:83:1 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp\services\prediction_service.dart:83:1 - missing_const_final_var_or_type
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\services\simulation_service.dart:40:1 - expected_executable
+   info - Statements in an if should be enclosed in a block - lib_recovered_temp\ui\screens\admin\admin_announcements_screen.dart:96:21 - curly_braces_in_flow_control_structures
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\ui\screens\admin\admin_announcements_screen.dart:125:1 - expected_executable
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib_recovered_temp\ui\screens\admin\admin_manage_routes_screen.dart:83:46 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib_recovered_temp\ui\screens\admin\admin_manage_routes_screen.dart:110:13 - curly_braces_in_flow_control_structures
+  error - Expected to find ';' - lib_recovered_temp\ui\screens\admin\admin_manage_routes_screen.dart:119:39 - expected_token
+  error - Unterminated string literal - lib_recovered_temp\ui\screens\admin\admin_manage_routes_screen.dart:119:39 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp\ui\screens\admin\admin_manage_routes_screen.dart:119:40 - expected_token
+  error - Expected to find '}' - lib_recovered_temp\ui\screens\admin\admin_manage_routes_screen.dart:119:40 - expected_token
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:96:15 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:142:21 - curly_braces_in_flow_control_structures
+  error - Expected to find ';' - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:151:57 - expected_token
+  error - Unterminated string literal - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:151:57 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+  error - Expected to find ']' - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+  error - Expected to find '}' - lib_recovered_temp\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:23:26 - undefined_method
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:31:26 - undefined_method
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:43:26 - undefined_method
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:47:26 - undefined_method
+  error - The method '_buildLogTile' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:63:19 - undefined_method
+  error - Expected to find ';' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:64:21 - expected_token
+  error - Unterminated string literal - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:64:28 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+  error - Expected to find ']' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+  error - Expected to find '}' - lib_recovered_temp\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\auth\login_screen.dart:35:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\auth\login_screen.dart:75:45 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib_recovered_temp\ui\screens\auth\login_screen.dart:102:46 - use_build_context_synchronously
+warning - The value of the local variable 'authService' isn't used - lib_recovered_temp\ui\screens\auth\phone_auth_screen.dart:105:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\auth\phone_auth_screen.dart:156:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\driver\driver_home.dart:71:55 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib_recovered_temp\ui\screens\driver\driver_home.dart:103:48 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib_recovered_temp\ui\screens\driver\driver_home.dart:109:48 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\driver\driver_home.dart:233:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:32:37 - deprecated_member_use
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:54:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:55:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:59:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:60:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:64:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:65:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:69:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:70:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:74:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:75:15 - undefined_method
+  error - Expected to find ';' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:81:19 - expected_token
+  error - Unterminated string literal - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:81:19 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+  error - Expected to find ']' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+  error - Expected to find '}' - lib_recovered_temp\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\legal\terms_screen.dart:32:37 - deprecated_member_use
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:54:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:55:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:59:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:60:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:64:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:65:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:69:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:70:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:74:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:75:15 - undefined_method
+  error - Expected to find ';' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:81:19 - expected_token
+  error - Unterminated string literal - lib_recovered_temp\ui\screens\legal\terms_screen.dart:81:19 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+  error - Expected to find ']' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+  error - Expected to find '}' - lib_recovered_temp\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib_recovered_temp\ui\screens\student\student_complaint_screen.dart:115:17 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib_recovered_temp\ui\screens\student\student_home.dart:170:23 - curly_braces_in_flow_control_structures
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\student\student_home.dart:204:30 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib_recovered_temp\ui\screens\student\student_home.dart:253:38 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\student\student_home.dart:440:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\student\student_home.dart:507:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\student\student_home.dart:547:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp\ui\screens\student\student_home.dart:632:66 - deprecated_member_use
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp\ui\widgets\glass_container.dart:43:1 - expected_executable
+   info - An uninitialized variable should have an explicit type annotation - lib_recovered_temp_v2\main.dart:101:1 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib_recovered_temp_v2\main.dart:101:1 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp_v2\main.dart:101:1 - missing_const_final_var_or_type
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\bus_model.dart:61:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\complaint_model.dart:50:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\route_model.dart:39:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\route_model.dart:39:2 - expected_executable
+  error - Expected to find ')' - lib_recovered_temp_v2\models\route_model.dart:39:2 - expected_token
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\stop_model.dart:43:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\models\user_model.dart:48:1 - expected_executable
+   info - An uninitialized variable should have an explicit type annotation - lib_recovered_temp_v2\services\location_service.dart:70:1 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib_recovered_temp_v2\services\location_service.dart:70:1 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp_v2\services\location_service.dart:70:1 - missing_const_final_var_or_type
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\services\notification_service.dart:33:1 - expected_executable
+  error - Unterminated string literal - lib_recovered_temp_v2\services\notification_service.dart:33:1 - unterminated_string_literal
+   info - An uninitialized variable should have an explicit type annotation - lib_recovered_temp_v2\services\prediction_service.dart:83:1 - prefer_typing_uninitialized_variables
+  error - Expected to find ';' - lib_recovered_temp_v2\services\prediction_service.dart:83:1 - expected_token
+  error - Variables must be declared using the keywords 'const', 'final', 'var' or a type name - lib_recovered_temp_v2\services\prediction_service.dart:83:1 - missing_const_final_var_or_type
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\services\simulation_service.dart:40:1 - expected_executable
+   info - Statements in an if should be enclosed in a block - lib_recovered_temp_v2\ui\screens\admin\admin_announcements_screen.dart:96:21 - curly_braces_in_flow_control_structures
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\ui\screens\admin\admin_announcements_screen.dart:125:1 - expected_executable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\admin\admin_dashboard.dart:132:32 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:69:46 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:92:13 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:95:13 - curly_braces_in_flow_control_structures
+  error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:104:81 - expected_token
+  error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:104:81 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:104:82 - expected_token
+  error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_buses_screen.dart:104:82 - expected_token
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib_recovered_temp_v2\ui\screens\admin\admin_manage_routes_screen.dart:83:46 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib_recovered_temp_v2\ui\screens\admin\admin_manage_routes_screen.dart:110:13 - curly_braces_in_flow_control_structures
+  error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_routes_screen.dart:119:39 - expected_token
+  error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\admin\admin_manage_routes_screen.dart:119:39 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_routes_screen.dart:119:40 - expected_token
+  error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_routes_screen.dart:119:40 - expected_token
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:96:15 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:142:21 - curly_braces_in_flow_control_structures
+  error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:151:57 - expected_token
+  error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:151:57 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+  error - Expected to find ']' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+  error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\admin\admin_manage_users_screen.dart:151:58 - expected_token
+  error - Missing concrete implementation of 'abstract class State<T extends StatefulWidget> with Diagnosticable.build' - lib_recovered_temp_v2\ui\screens\admin\admin_map_screen.dart:12:7 - non_abstract_class_inherits_abstract_member
+  error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\admin\admin_map_screen.dart:37:66 - expected_token
+  error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\admin\admin_map_screen.dart:37:71 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\admin\admin_map_screen.dart:37:72 - expected_token
+  error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\admin\admin_map_screen.dart:37:72 - expected_token
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:23:26 - undefined_method
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:31:26 - undefined_method
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:43:26 - undefined_method
+  error - The method '_buildMetricCard' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:47:26 - undefined_method
+  error - The method '_buildLogTile' isn't defined for the type 'AdminReportsScreen' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:63:19 - undefined_method
+  error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:64:21 - expected_token
+  error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:64:28 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+  error - Expected to find ']' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+  error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\admin\admin_reports_screen.dart:64:29 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\auth\login_screen.dart:35:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\auth\login_screen.dart:75:45 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib_recovered_temp_v2\ui\screens\auth\login_screen.dart:102:46 - use_build_context_synchronously
+warning - The value of the local variable 'authService' isn't used - lib_recovered_temp_v2\ui\screens\auth\phone_auth_screen.dart:105:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\auth\phone_auth_screen.dart:156:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\driver\driver_home.dart:71:55 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib_recovered_temp_v2\ui\screens\driver\driver_home.dart:103:48 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib_recovered_temp_v2\ui\screens\driver\driver_home.dart:109:48 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\driver\driver_home.dart:233:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:32:37 - deprecated_member_use
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:54:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:55:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:59:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:60:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:64:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:65:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:69:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:70:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:74:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'PrivacyPolicyScreen' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:75:15 - undefined_method
+  error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:81:19 - expected_token
+  error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:81:19 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+  error - Expected to find ']' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+  error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\legal\privacy_policy_screen.dart:81:20 - expected_token
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:32:37 - deprecated_member_use
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:54:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:55:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:59:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:60:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:64:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:65:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:69:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:70:15 - undefined_method
+  error - The method '_buildSectionTitle' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:74:15 - undefined_method
+  error - The method '_buildSectionBody' isn't defined for the type 'TermsScreen' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:75:15 - undefined_method
+  error - Expected to find ';' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:81:19 - expected_token
+  error - Unterminated string literal - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:81:19 - unterminated_string_literal
+  error - Expected to find ')' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+  error - Expected to find ']' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+  error - Expected to find '}' - lib_recovered_temp_v2\ui\screens\legal\terms_screen.dart:81:20 - expected_token
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib_recovered_temp_v2\ui\screens\student\student_complaint_screen.dart:115:17 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib_recovered_temp_v2\ui\screens\student\student_home.dart:170:23 - curly_braces_in_flow_control_structures
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\student\student_home.dart:204:30 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib_recovered_temp_v2\ui\screens\student\student_home.dart:253:38 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\student\student_home.dart:440:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\student\student_home.dart:507:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\student\student_home.dart:547:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib_recovered_temp_v2\ui\screens\student\student_home.dart:632:66 - deprecated_member_use
+  error - Expected a method, getter, setter or operator declaration - lib_recovered_temp_v2\ui\widgets\glass_container.dart:43:1 - expected_executable
+

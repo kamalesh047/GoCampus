@@ -1,0 +1,9 @@
+Analyzing go_campus...                                          
+
+   info - Don't invoke 'print' in production code - extract_dill.dart:7:5 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:19:5 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:28:3 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:53:3 - avoid_print
+warning - Unused import: 'package:go_campus/core/app_constants.dart' - lib\ui\screens\driver\driver_map_markings_screen.dart:9:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\ui\screens\driver\driver_map_markings_screen.dart:186:49 - use_build_context_synchronously
+

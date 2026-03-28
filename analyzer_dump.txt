@@ -1,0 +1,8 @@
+Analyzing go_campus...                                          
+
+   info - Don't invoke 'print' in production code - extract_dill.dart:7:5 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:19:5 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:28:3 - avoid_print
+   info - Don't invoke 'print' in production code - extract_dill.dart:53:3 - avoid_print
+
+4 issues found. (ran in 10.5s)

@@ -1,0 +1,54 @@
+Running Gradle task 'assembleRelease'...                        
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 3796 bytes (99.8% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+e: file:///C:/Users/KAMALESH/.gradle/caches/8.12/transforms/978bdf217aa3a21317dc553ac4cb6a2a/transformed/jetified-android-maps-utils-4.1.0/jars/classes.jar!/META-INF/library_release.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file:///C:/Users/KAMALESH/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.3.10/8b80e2f80a3b7daa99c16017f91d4c72cd8b31a6/kotlin-stdlib-2.3.10.jar!/META-INF/kotlin-stdlib-jdk7.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file:///C:/Users/KAMALESH/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.3.10/8b80e2f80a3b7daa99c16017f91d4c72cd8b31a6/kotlin-stdlib-2.3.10.jar!/META-INF/kotlin-stdlib-jdk8.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+e: file:///C:/Users/KAMALESH/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.3.10/8b80e2f80a3b7daa99c16017f91d4c72cd8b31a6/kotlin-stdlib-2.3.10.jar!/META-INF/kotlin-stdlib.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.3.0, expected version is 2.1.0.
+C:\Users\KAMALESH\.gemini\antigravity\scratch\go_campus\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java:54: error: cannot find symbol
+      flutterEngine.getPlugins().add(new io.flutter.plugins.firebase.storage.FlutterFirebaseStoragePlugin());
+                                                                            ^
+  symbol:   class FlutterFirebaseStoragePlugin
+  location: package io.flutter.plugins.firebase.storage
+C:\Users\KAMALESH\.gemini\antigravity\scratch\go_campus\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java:104: error: cannot find symbol
+      flutterEngine.getPlugins().add(new io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin());
+                                                                             ^
+  symbol:   class SharedPreferencesPlugin
+  location: package io.flutter.plugins.sharedpreferences
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileReleaseJavaWithJavac'.
+> Compilation failed; see the compiler output below.
+  C:\Users\KAMALESH\.gemini\antigravity\scratch\go_campus\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java:54: error: cannot find symbol
+        flutterEngine.getPlugins().add(new io.flutter.plugins.firebase.storage.FlutterFirebaseStoragePlugin());
+                                                                              ^
+    symbol:   class FlutterFirebaseStoragePlugin
+    location: package io.flutter.plugins.firebase.storage
+  C:\Users\KAMALESH\.gemini\antigravity\scratch\go_campus\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java:104: error: cannot find symbol
+        flutterEngine.getPlugins().add(new io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin());
+                                                                               ^
+    symbol:   class SharedPreferencesPlugin
+    location: package io.flutter.plugins.sharedpreferences
+  2 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 25s
+Running Gradle task 'assembleRelease'...                           26.0s
+
+┌─ Flutter Fix ────────────────────────────────────────────────────────────────────────────────┐
+│ [!] Your project requires a newer version of the Kotlin Gradle plugin.                       │
+│ Find the latest version on https://kotlinlang.org/docs/releases.html#release-details, then   │
+│ update the                                                                                   │
+│ version number of the plugin with id "org.jetbrains.kotlin.android" in the plugins block of  │
+│ C:\Users\KAMALESH\.gemini\antigravity\scratch\go_campus\android\settings.gradle.             │
+│                                                                                              │
+│ Alternatively (if your project was created before Flutter 3.19), update                      │
+│ C:\Users\KAMALESH\.gemini\antigravity\scratch\go_campus\android\build.gradle.kts             │
+│ ext.kotlin_version = '<latest-version>'                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────┘
+Gradle task assembleRelease failed with exit code 1

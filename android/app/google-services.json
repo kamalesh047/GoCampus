@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "88548335176",
+    "project_id": "gocampus01-e0437",
+    "storage_bucket": "gocampus01-e0437.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88548335176:android:8e444696ea67a6a59a427d",
+        "android_client_info": {
+          "package_name": "com.gocampus.go_campus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88548335176-fc50muvv6c1ktve24a16603j4hbjs05a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gocampus.go_campus",
+            "certificate_hash": "6c906f4932e9b5c926f55608f2d212088e2a54fc"
+          }
+        },
+        {
+          "client_id": "88548335176-17idv9c0i7q7a883hc0op81m051rilts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcniuITjkjqiNrosGniZ169Pnno68xuBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88548335176-17idv9c0i7q7a883hc0op81m051rilts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

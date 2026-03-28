@@ -1,0 +1,282 @@
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+
+> Configure project :app
+Warning: Flutter support for your project's Kotlin version (2.0.21) will soon be dropped. Please upgrade your Kotlin version to a version of at least 2.1.0 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's KGP version is typically defined in the plugins block of the `settings.gradle` file (C:\Users\KAMALESH\.gemini\antigravity\scratch\go_campus\android/settings.gradle), by a plugin with the id of org.jetbrains.kotlin.android. 
+If you don't see a plugins block, your project was likely created with an older template version, in which case it is most likely defined in the top-level build.gradle file (C:\Users\KAMALESH\.gemini\antigravity\scratch\go_campus\android/build.gradle) by the ext.kotlin_version property.
+
+
+> Task :app:ReleaseMinSdkCheck
+> Task :app:compileFlutterBuildRelease
+> Task :app:packJniLibsflutterBuildRelease UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:configureCMakeRelease[arm64-v8a]
+> Task :app:buildCMakeRelease[arm64-v8a]
+> Task :app:configureCMakeRelease[armeabi-v7a]
+> Task :app:buildCMakeRelease[armeabi-v7a]
+> Task :app:configureCMakeRelease[x86_64]
+> Task :app:buildCMakeRelease[x86_64]
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :cloud_firestore:preBuild UP-TO-DATE
+> Task :cloud_firestore:preReleaseBuild UP-TO-DATE
+> Task :cloud_firestore:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :cloud_firestore:mergeReleaseNativeLibs NO-SOURCE
+> Task :cloud_firestore:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :device_info_plus:preBuild UP-TO-DATE
+> Task :device_info_plus:preReleaseBuild UP-TO-DATE
+> Task :device_info_plus:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :device_info_plus:mergeReleaseNativeLibs NO-SOURCE
+> Task :device_info_plus:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :file_picker:preBuild UP-TO-DATE
+> Task :file_picker:preReleaseBuild UP-TO-DATE
+> Task :file_picker:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :file_picker:mergeReleaseNativeLibs NO-SOURCE
+> Task :file_picker:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :firebase_auth:preBuild UP-TO-DATE
+> Task :firebase_auth:preReleaseBuild UP-TO-DATE
+> Task :firebase_auth:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :firebase_auth:mergeReleaseNativeLibs NO-SOURCE
+> Task :firebase_auth:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :firebase_core:preBuild UP-TO-DATE
+> Task :firebase_core:preReleaseBuild UP-TO-DATE
+> Task :firebase_core:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :firebase_core:mergeReleaseNativeLibs NO-SOURCE
+> Task :firebase_core:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :firebase_crashlytics:preBuild UP-TO-DATE
+> Task :firebase_crashlytics:preReleaseBuild UP-TO-DATE
+> Task :firebase_crashlytics:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :firebase_crashlytics:mergeReleaseNativeLibs NO-SOURCE
+> Task :firebase_crashlytics:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :firebase_messaging:preBuild UP-TO-DATE
+> Task :firebase_messaging:preReleaseBuild UP-TO-DATE
+> Task :firebase_messaging:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :firebase_messaging:mergeReleaseNativeLibs NO-SOURCE
+> Task :firebase_messaging:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :firebase_storage:preBuild UP-TO-DATE
+> Task :firebase_storage:preReleaseBuild UP-TO-DATE
+> Task :firebase_storage:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :firebase_storage:mergeReleaseNativeLibs NO-SOURCE
+> Task :firebase_storage:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :flutter_local_notifications:preBuild UP-TO-DATE
+> Task :flutter_local_notifications:preReleaseBuild UP-TO-DATE
+> Task :flutter_local_notifications:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :flutter_local_notifications:mergeReleaseNativeLibs NO-SOURCE
+> Task :flutter_local_notifications:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:preBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:preReleaseBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:mergeReleaseNativeLibs NO-SOURCE
+> Task :flutter_plugin_android_lifecycle:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :geocoding_android:preBuild UP-TO-DATE
+> Task :geocoding_android:preReleaseBuild UP-TO-DATE
+> Task :geocoding_android:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :geocoding_android:mergeReleaseNativeLibs NO-SOURCE
+> Task :geocoding_android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :geolocator_android:preBuild UP-TO-DATE
+> Task :geolocator_android:preReleaseBuild UP-TO-DATE
+> Task :geolocator_android:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :geolocator_android:mergeReleaseNativeLibs NO-SOURCE
+> Task :geolocator_android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :google_maps_flutter_android:preBuild UP-TO-DATE
+> Task :google_maps_flutter_android:preReleaseBuild UP-TO-DATE
+> Task :google_maps_flutter_android:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :google_maps_flutter_android:mergeReleaseNativeLibs NO-SOURCE
+> Task :google_maps_flutter_android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :google_sign_in_android:preBuild UP-TO-DATE
+> Task :google_sign_in_android:preReleaseBuild UP-TO-DATE
+> Task :google_sign_in_android:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :google_sign_in_android:mergeReleaseNativeLibs NO-SOURCE
+> Task :google_sign_in_android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :package_info_plus:preBuild UP-TO-DATE
+> Task :package_info_plus:preReleaseBuild UP-TO-DATE
+> Task :package_info_plus:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :package_info_plus:mergeReleaseNativeLibs NO-SOURCE
+> Task :package_info_plus:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :path_provider_android:preBuild UP-TO-DATE
+> Task :path_provider_android:preReleaseBuild UP-TO-DATE
+> Task :path_provider_android:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :path_provider_android:mergeReleaseNativeLibs NO-SOURCE
+> Task :path_provider_android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeReleaseNativeLibs UP-TO-DATE
+> Task :app:stripReleaseDebugSymbols UP-TO-DATE
+> Task :app:extractReleaseNativeSymbolTables UP-TO-DATE
+> Task :app:mergeReleaseNativeDebugMetadata UP-TO-DATE
+> Task :cloud_firestore:prepareReleaseArtProfile UP-TO-DATE
+> Task :device_info_plus:prepareReleaseArtProfile UP-TO-DATE
+> Task :file_picker:prepareReleaseArtProfile UP-TO-DATE
+> Task :firebase_auth:prepareReleaseArtProfile UP-TO-DATE
+> Task :firebase_core:prepareReleaseArtProfile UP-TO-DATE
+> Task :firebase_crashlytics:prepareReleaseArtProfile UP-TO-DATE
+> Task :firebase_messaging:prepareReleaseArtProfile UP-TO-DATE
+> Task :firebase_storage:prepareReleaseArtProfile UP-TO-DATE
+> Task :flutter_local_notifications:prepareReleaseArtProfile UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:prepareReleaseArtProfile UP-TO-DATE
+> Task :geocoding_android:prepareReleaseArtProfile UP-TO-DATE
+> Task :geolocator_android:prepareReleaseArtProfile UP-TO-DATE
+> Task :google_maps_flutter_android:prepareReleaseArtProfile UP-TO-DATE
+> Task :google_sign_in_android:prepareReleaseArtProfile UP-TO-DATE
+> Task :package_info_plus:prepareReleaseArtProfile UP-TO-DATE
+> Task :path_provider_android:prepareReleaseArtProfile UP-TO-DATE
+> Task :app:mergeReleaseArtProfile UP-TO-DATE
+> Task :app:expandReleaseL8ArtProfileWildcards UP-TO-DATE
+> Task :cloud_firestore:generateReleaseBuildConfig UP-TO-DATE
+> Task :cloud_firestore:generateReleaseResValues UP-TO-DATE
+> Task :cloud_firestore:generateReleaseResources UP-TO-DATE
+> Task :cloud_firestore:packageReleaseResources UP-TO-DATE
+> Task :cloud_firestore:parseReleaseLocalResources UP-TO-DATE
+> Task :cloud_firestore:generateReleaseRFile UP-TO-DATE
+> Task :cloud_firestore:javaPreCompileRelease UP-TO-DATE
+> Task :firebase_core:generateReleaseBuildConfig UP-TO-DATE
+> Task :firebase_core:generateReleaseResValues UP-TO-DATE
+> Task :firebase_core:generateReleaseResources UP-TO-DATE
+> Task :firebase_core:packageReleaseResources UP-TO-DATE
+> Task :firebase_core:parseReleaseLocalResources UP-TO-DATE
+> Task :firebase_core:generateReleaseRFile UP-TO-DATE
+> Task :firebase_core:javaPreCompileRelease UP-TO-DATE
+> Task :firebase_core:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :firebase_core:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :cloud_firestore:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :cloud_firestore:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :cloud_firestore:exportReleaseConsumerProguardFiles UP-TO-DATE
+> Task :device_info_plus:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :device_info_plus:generateReleaseResValues UP-TO-DATE
+> Task :device_info_plus:generateReleaseResources UP-TO-DATE
+> Task :device_info_plus:packageReleaseResources UP-TO-DATE
+> Task :device_info_plus:parseReleaseLocalResources UP-TO-DATE
+> Task :device_info_plus:generateReleaseRFile UP-TO-DATE
+> Task :device_info_plus:javaPreCompileRelease UP-TO-DATE
+> Task :file_picker:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :file_picker:generateReleaseResValues UP-TO-DATE
+> Task :file_picker:generateReleaseResources UP-TO-DATE
+> Task :file_picker:packageReleaseResources UP-TO-DATE
+> Task :file_picker:parseReleaseLocalResources UP-TO-DATE
+> Task :file_picker:generateReleaseRFile UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:generateReleaseResValues UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:generateReleaseResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:packageReleaseResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:parseReleaseLocalResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:generateReleaseRFile UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:javaPreCompileRelease UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :file_picker:javaPreCompileRelease UP-TO-DATE
+> Task :firebase_auth:generateReleaseBuildConfig UP-TO-DATE
+> Task :firebase_auth:generateReleaseResValues UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:bundleLibCompileToJarRelease
+> Task :firebase_auth:generateReleaseResources
+
+> Task :device_info_plus:compileReleaseKotlin FAILED
+e: org.jetbrains.kotlin.util.FileAnalysisException: While analysing C:/Users/KAMALESH/AppData/Local/Pub/Cache/hosted/pub.dev/device_info_plus-12.3.0/android/src/main/kotlin/dev/fluttercommunity/plus/device_info/DeviceInfoPlusPlugin.kt:15:5: java.lang.IllegalArgumentException: source must not be null
+	at org.jetbrains.kotlin.util.AnalysisExceptionsKt.wrapIntoFileAnalysisExceptionIfNeeded(AnalysisExceptions.kt:57)
+	at org.jetbrains.kotlin.fir.FirCliExceptionHandler.handleExceptionOnFileAnalysis(Utils.kt:249)
+	at org.jetbrains.kotlin.fir.pipeline.AnalyseKt.runCheckers(analyse.kt:46)
+	at org.jetbrains.kotlin.fir.pipeline.FirUtilsKt.resolveAndCheckFir(firUtils.kt:77)
+	at org.jetbrains.kotlin.fir.pipeline.FirUtilsKt.buildResolveAndCheckFirViaLightTree(firUtils.kt:88)
+	at org.jetbrains.kotlin.cli.jvm.compiler.pipeline.JvmCompilerPipelineKt.compileModuleToAnalyzedFir(jvmCompilerPipeline.kt:319)
+	at org.jetbrains.kotlin.cli.jvm.compiler.pipeline.JvmCompilerPipelineKt.compileModulesUsingFrontendIrAndLightTree(jvmCompilerPipeline.kt:118)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:148)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:43)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:103)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:49)
+	at org.jetbrains.kotlin.cli.common.CLITool.exec(CLITool.kt:101)
+	at org.jetbrains.kotlin.incremental.IncrementalJvmCompilerRunner.runCompiler(IncrementalJvmCompilerRunner.kt:464)
+	at org.jetbrains.kotlin.incremental.IncrementalJvmCompilerRunner.runCompiler(IncrementalJvmCompilerRunner.kt:73)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.doCompile(IncrementalCompilerRunner.kt:506)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileImpl(IncrementalCompilerRunner.kt:423)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileNonIncrementally(IncrementalCompilerRunner.kt:301)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compile(IncrementalCompilerRunner.kt:129)
+	at org.jetbrains.kotlin.daemon.CompileServiceImplBase.execIncrementalCompiler(CompileServiceImpl.kt:675)
+	at org.jetbrains.kotlin.daemon.CompileServiceImplBase.access$execIncrementalCompiler(CompileServiceImpl.kt:92)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.compile(CompileServiceImpl.kt:1660)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: source must not be null
+	at org.jetbrains.kotlin.diagnostics.KtDiagnosticReportHelpersKt.requireNotNull(KtDiagnosticReportHelpers.kt:68)
+	at org.jetbrains.kotlin.diagnostics.KtDiagnosticReportHelpersKt.reportOn(KtDiagnosticReportHelpers.kt:39)
+	at org.jetbrains.kotlin.diagnostics.KtDiagnosticReportHelpersKt.reportOn$default(KtDiagnosticReportHelpers.kt:31)
+	at org.jetbrains.kotlin.fir.analysis.checkers.expression.FirIncompatibleClassExpressionChecker.checkSourceElement(FirIncompatibleClassExpressionChecker.kt:50)
+	at org.jetbrains.kotlin.fir.analysis.checkers.expression.FirIncompatibleClassExpressionChecker.checkType$checkers(FirIncompatibleClassExpressionChecker.kt:42)
+	at org.jetbrains.kotlin.fir.analysis.checkers.type.FirIncompatibleClassTypeChecker.check(FirIncompatibleClassTypeChecker.kt:17)
+	at org.jetbrains.kotlin.fir.analysis.collectors.components.TypeCheckersDiagnosticComponent.check(TypeCheckersDiagnosticComponent.kt:81)
+	at org.jetbrains.kotlin.fir.analysis.collectors.components.TypeCheckersDiagnosticComponent.visitResolvedTypeRef(TypeCheckersDiagnosticComponent.kt:53)
+	at org.jetbrains.kotlin.fir.analysis.collectors.components.TypeCheckersDiagnosticComponent.visitResolvedTypeRef(TypeCheckersDiagnosticComponent.kt:19)
+	at org.jetbrains.kotlin.fir.types.FirResolvedTypeRef.accept(FirResolvedTypeRef.kt:28)
+	at org.jetbrains.kotlin.fir.analysis.collectors.CheckerRunningDiagnosticCollectorVisitor.checkElement(CheckerRunningDiagnosticCollectorVisitor.kt:24)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitResolvedTypeRef(AbstractDiagnosticCollectorVisitor.kt:248)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitResolvedTypeRef(AbstractDiagnosticCollectorVisitor.kt:30)
+	at org.jetbrains.kotlin.fir.types.FirResolvedTypeRef.accept(FirResolvedTypeRef.kt:28)
+	at org.jetbrains.kotlin.fir.declarations.impl.FirSimpleFunctionImpl.acceptChildren(FirSimpleFunctionImpl.kt:63)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitNestedElements(AbstractDiagnosticCollectorVisitor.kt:38)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitWithDeclarationAndReceiver(AbstractDiagnosticCollectorVisitor.kt:311)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitSimpleFunction(AbstractDiagnosticCollectorVisitor.kt:118)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitSimpleFunction(AbstractDiagnosticCollectorVisitor.kt:30)
+	at org.jetbrains.kotlin.fir.declarations.FirSimpleFunction.accept(FirSimpleFunction.kt:51)
+	at org.jetbrains.kotlin.fir.declarations.impl.FirRegularClassImpl.acceptChildren(FirRegularClassImpl.kt:63)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitNestedElements(AbstractDiagnosticCollectorVisitor.kt:38)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitWithDeclarationAndReceiver(AbstractDiagnosticCollectorVisitor.kt:311)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitClassAndChildren(AbstractDiagnosticCollectorVisitor.kt:87)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitRegularClass(AbstractDiagnosticCollectorVisitor.kt:92)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitRegularClass(AbstractDiagnosticCollectorVisitor.kt:30)
+	at org.jetbrains.kotlin.fir.declarations.FirRegularClass.accept(FirRegularClass.kt:48)
+	at org.jetbrains.kotlin.fir.declarations.impl.FirFileImpl.acceptChildren(FirFileImpl.kt:57)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitNestedElements(AbstractDiagnosticCollectorVisitor.kt:38)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitFile(AbstractDiagnosticCollectorVisitor.kt:1151)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollectorVisitor.visitFile(AbstractDiagnosticCollectorVisitor.kt:30)
+	at org.jetbrains.kotlin.fir.declarations.FirFile.accept(FirFile.kt:42)
+	at org.jetbrains.kotlin.fir.analysis.collectors.AbstractDiagnosticCollector.collectDiagnostics(AbstractDiagnosticCollector.kt:36)
+	at org.jetbrains.kotlin.fir.pipeline.AnalyseKt.runCheckers(analyse.kt:34)
+	... 33 more
+
+e: file:///C:/Users/KAMALESH/.gradle/caches/8.12/transforms/8f01ea42d073f2f8d0f69435ce6143cf/transformed/jetified-kotlin-stdlib-2.2.0.jar!/META-INF/kotlin-stdlib-jdk7.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.2.0, expected version is 2.0.0.
+e: file:///C:/Users/KAMALESH/.gradle/caches/8.12/transforms/8f01ea42d073f2f8d0f69435ce6143cf/transformed/jetified-kotlin-stdlib-2.2.0.jar!/META-INF/kotlin-stdlib-jdk8.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.2.0, expected version is 2.0.0.
+e: file:///C:/Users/KAMALESH/.gradle/caches/8.12/transforms/8f01ea42d073f2f8d0f69435ce6143cf/transformed/jetified-kotlin-stdlib-2.2.0.jar!/META-INF/kotlin-stdlib.kotlin_module Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.2.0, expected version is 2.0.0.
+
+> Task :file_picker:compileReleaseKotlin
+w: file:///C:/Users/KAMALESH/AppData/Local/Pub/Cache/hosted/pub.dev/file_picker-10.3.10/android/src/main/kotlin/com/mr/flutter/plugin/filepicker/FilePickerPlugin.kt:148:70 Unchecked cast of 'kotlin.Any?' to 'java.util.ArrayList<kotlin.String>?'.
+w: file:///C:/Users/KAMALESH/AppData/Local/Pub/Cache/hosted/pub.dev/file_picker-10.3.10/android/src/main/kotlin/com/mr/flutter/plugin/filepicker/FilePickerPlugin.kt:170:70 Unchecked cast of 'kotlin.Any?' to 'java.util.ArrayList<kotlin.String>?'.
+
+[Incubating] Problems report is available at: file:///C:/Users/KAMALESH/.gemini/antigravity/scratch/go_campus/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':device_info_plus:compileReleaseKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Internal compiler error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.12/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 1m 7s
+112 actionable tasks: 12 executed, 100 up-to-date
