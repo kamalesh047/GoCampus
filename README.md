@@ -1,11 +1,6 @@
 
 # GoCampus: Smart AI-Based Campus Transport & Fleet Management System testing from pc2\
 
-TESTING FROM PC2 madhusudhanan is bad boy
-update from monu shree
-iam sk
-
-
 kamalesh gtood boy timing:13.44
 >>>>>>> 7ae5212067dc347b44ae56d5563cd1d9546f4adc
 
