@@ -4,6 +4,10 @@
 TESTING FROM PC2 madhusudhanan is good boy
 update from monu shree
 
+<<<<<<< HEAD
+=======
+kamalesh gtood boy timing:13.44
+>>>>>>> 7ae5212067dc347b44ae56d5563cd1d9546f4adc
 
 GoCampus is a production-grade fleet management solution designed specifically for university campuses. It leverages real-time GPS tracking, AI-based arrival predictions, and a multi-layered safety architecture to provide a seamless transportation experience for students, drivers, and administrators.
 
